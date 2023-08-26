@@ -1,0 +1,54 @@
+/* Reset some default styles for consistency */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f0f0f0; /* Change this to your desired background color */
+}
+
+/* Set margin and padding for the main content */
+.container {
+    margin: 30px auto; /* Add margin from top and bottom, and center horizontally */
+    padding: 30px 400px; /* 20px top and bottom, 200px left and right */
+    background-color: #fff; /* White background for the content */
+    border-radius: 5px; /* Add rounded corners to the content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Style headings and paragraphs */
+h1, h2 , h3 {
+    font-family: Arial, sans-serif; /* Use a sans-serif font */
+    font-weight: bold; /* Make headings bold */
+    color: #333; /* Set text color */
+}
+
+p {
+    font-family: Arial, sans-serif; /* Use a sans-serif font */
+    line-height: 1.6; /* Adjust line height for readability */
+    color: #666; /* Set text color */
+}
+
+li {
+    font-family: Arial, sans-serif; /* Use a sans-serif font */
+    line-height: 1.6; /* Adjust line height for readability */
+    color: #666; /* Set text color */
+}
+
+/* Style links */
+a {
+    color: #007BFF; /* Link color */
+    text-decoration: none; /* Remove underlines from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Style the list of third-party services */
+ul {
+    list-style-type: circle; /* Use squares as list bullets */
+    margin-left: 20px; /* Add left margin to lists */
+}

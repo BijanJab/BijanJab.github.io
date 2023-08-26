@@ -1,0 +1,21 @@
+/* CSS for centering content */
+.centered-content {
+    text-align: center; /* Center-align text horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align content vertically */
+    height: 100vh; /* Make the div take the full viewport height */
+    justify-content: center; /* Center-align content vertically */
+}
+
+/* CSS for styling the text and image */
+h1, p {
+    font-family: Arial, sans-serif; /* Specify the sans-serif font family */
+    text-align: center; /* Center-align the text */
+}
+
+/* CSS for styling the image (optional) */
+img {
+    max-width: 100%; /* Ensure the image fits within its container */
+    height: auto; /* Maintain the image's aspect ratio */
+}
