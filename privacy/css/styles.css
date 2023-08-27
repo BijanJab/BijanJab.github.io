@@ -12,7 +12,7 @@ body {
 /* Set margin and padding for the main content */
 .container {
     margin: 30px auto; /* Add margin from top and bottom, and center horizontally */
-    padding: 30px 400px; /* 20px top and bottom, 200px left and right */
+    padding: 30px 15%; /* 20px top and bottom, 200px left and right */
     background-color: #fff; /* White background for the content */
     border-radius: 5px; /* Add rounded corners to the content */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
